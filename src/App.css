@@ -22,6 +22,10 @@
     margin-left: 1.7rem;
 }
 
+.logo {
+    margin: 2rem 0 0 2rem;
+}
+
 .App {
     display: flex;
     margin-top: 2rem;
