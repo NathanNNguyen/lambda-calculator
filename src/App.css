@@ -19,4 +19,68 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    margin-left: 1.7rem;
+}
+
+.App {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1.7rem;
+}
+
+.firstDiv{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.special {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: .7rem;
+}
+
+.specialButtons {
+    width: 75%;
+    height: 7rem;
+    background: #2160b0;
+    color: white;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-right: .7rem;
+}
+
+
+.secondDiv{
+    width: 30%;
+}
+
+.operatorButtons {
+    width: 75%;
+    height: 7rem;
+    background: #3eb5e5;
+    margin-top: .7rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+}
+
+.number {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.numberButtons {
+    width: 30%;
+    height: 7rem;
+    background: #123c78;
+    color: white;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-right: .7rem;
+    margin-top: .7rem;
+}
+
+

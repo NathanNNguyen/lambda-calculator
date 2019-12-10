@@ -11,7 +11,7 @@ const Specials = () => {
   console.log(specialsState);
 
   return (
-    <div>
+    <div className="special">
       {specialsState.map((special, index) => (
         <SpecialButton key={index} spec={special} />
       ))

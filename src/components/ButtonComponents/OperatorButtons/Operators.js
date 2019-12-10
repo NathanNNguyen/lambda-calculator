@@ -11,7 +11,7 @@ const Operators = () => {
   const [operatorsState] = useState(operators);
   // console.log(operatorsState)
   return (
-    <div>
+    <div className='operator'>
       {operatorsState.map((operator, index) => (
         <OperatorButton key={index} ope={operator} />
       ))
